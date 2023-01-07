@@ -1,0 +1,95 @@
+.navBarContainer {
+    border: 0.1rem solid #e0e0e0;
+    width: calc(100% - 6rem);
+    height: 6rem;
+    margin-left: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.firstContainer {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.navBarContainer .iconClass {
+    width: 70%;
+    height: 70%;
+    margin: 0.4rem 0 0 0.8rem;
+    color: #B2B1B6;
+}
+
+.iconDiv {
+    background-color: #EFEFEF;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+
+}
+
+.breadCrumb {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.linkNav{
+    color: #9782C3;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+.typoText{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.secondContainer {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.navBarContainer .refreshClass,
+.navBarContainer .moreIcon {
+    font-size: 2rem;
+    width: 80%;
+    height: 80%;
+    margin: 0.3rem;
+    color: #B2B1B6;
+}
+
+.btnDiscard {
+    background-color: #F3EDFF;
+    color: #9782C3;
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-shadow: none;
+    text-transform: capitalize;
+}
+
+.btnDiscard:hover,
+.btnSave:hover {
+    background-color: unset;
+    color: unset;
+}
+
+.btnSave {
+    background-color: #9782C3;
+    color: #F3EDFF;
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+.refreshDiv{
+    margin-right: .7rem;
+}
+.verticalHR{
+    border-left: 0.3rem solid #F8F8F8;
+    height: 2rem;
+    margin-right: .5rem;
+}
