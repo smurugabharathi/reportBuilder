@@ -1,0 +1,90 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 6rem;
+    left: 6rem;
+    transition: 0.5s;
+    padding-top: 1rem;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+
+.openSidebar {
+        height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 6rem;
+    left: 6rem;
+    transition: 0.5s;
+    padding-top: 1rem;
+    border: 1px solid #e0e0e0;
+    width: 25rem;
+}
+
+/* .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+} */
+
+/* .sidebar a:hover {
+    color: #f1f1f1;
+} */
+
+.sidebar .closebtn,
+.openSidebar .closebtn {
+    position: absolute;
+    top: 1rem;
+    right: -1rem;
+    font-size: 1.8rem;
+    background-color: #8350F0;
+    cursor: pointer;
+    padding: .4rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+.openbtn {
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+.main {
+    transition: margin-left .5s;
+    padding: 1.6rem;
+}
+
+.openMain {
+    transition: margin-left .5s;
+    padding: 1.6rem;
+    margin-left: 25rem;
+}
+.openSidebar .accordionTitle{
+    width:33%;
+    flex-shrink: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.openSidebar .accordionListTitle{
+    font-size: 1.2rem;
+}
+.openSidebar .sideBarTitle{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: start;
+    margin-left: 1.3rem;
+}

@@ -37,14 +37,18 @@
 
 }
 
-.linkNav{
-    color: #9782C3;
+.navBarContainer .linkNav{
+    color: #8350F0;
     font-size: 1.1rem;
     font-weight: 800;
 }
-.typoText{
+.navBarContainer .typoText{
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+.navBarContainer .headline{
+    text-align: start;
 }
 
 .secondContainer {
@@ -62,34 +66,32 @@
     color: #B2B1B6;
 }
 
-.btnDiscard {
+.navBarContainer .btnDiscard {
     background-color: #F3EDFF;
-    color: #9782C3;
+    color: #8350F0;
     font-weight: 700;
     font-size: 1.1rem;
     box-shadow: none;
     text-transform: capitalize;
 }
 
-.btnDiscard:hover,
-.btnSave:hover {
+.navBarContainer .btnDiscard:hover,
+.navBarContainer .btnSave:hover {
     background-color: unset;
     color: unset;
 }
 
-.btnSave {
-    background-color: #9782C3;
+.navBarContainer .btnSave {
+    background-color: #8350F0;
     color: #F3EDFF;
     box-shadow: none;
     font-weight: 700;
     font-size: 1.1rem;
     text-transform: capitalize;
 }
-.refreshDiv{
+.navBarContainer .refreshDiv{
     margin-right: .7rem;
 }
-.verticalHR{
-    border-left: 0.3rem solid #F8F8F8;
-    height: 2rem;
+.navBarContainer .verticalHR{
     margin-right: .5rem;
 }

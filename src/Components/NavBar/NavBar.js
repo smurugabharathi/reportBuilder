@@ -8,6 +8,8 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import Button from '@mui/material/Button';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import Divider from '@mui/material/Divider';
+
 import classes from './NavBar.module.css';
 
 const NavBar = () => {
@@ -22,21 +24,20 @@ const NavBar = () => {
                     <Link
                     className={classes.linkNav}
                         underline="hover"
-                        color="inherit"
                         href="#"
                     >
-                        Dashboard
+                        Dashboards
                     </Link>
-                    <Typography color="text.primary" className={classes.typoText}>2022 Inventory Dashboard</Typography>
+                    <Typography className={classes.typoText}>2022 Inventory Dashboard</Typography>
                 </Breadcrumbs>
                 </span>
-                <h1>2022 Inventory Dashboard</h1>
+                <h1 className={classes.headline}>2022 Inventory Dashboard</h1>
             </div>
         </div>
         <div className={classes.secondContainer}>
             <div className={classes.iconDiv}><ReplayIcon className={classes.refreshClass} /></div>
             <div className={`${classes.iconDiv} ${classes.refreshDiv}`}><RefreshIcon className={classes.refreshClass} /></div>
-            <div className={classes.verticalHR}></div>
+            <Divider className={classes.verticalHR} orientation="vertical" flexItem />
             <div><Button className={classes.btnDiscard} variant="contained">Discard Changes</Button></div>
             <div> <Button className={classes.btnSave} variant="contained">Save</Button></div>
             <div className={classes.iconDiv}><MoreHorizIcon className={classes.moreIcon} /></div>
